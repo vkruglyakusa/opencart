@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite usa black caviar]">
+  <parameter name="environment" value="stg"/>
+  <parameter name="browserName" value="chrome"/>
+  <listeners>
+    <listener class-name="com.opencart.automation.customListeners.Listener"/>
+    <listener class-name="com.opencart.automation.customListeners.RetryListener"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="TestLogin(failed)">
+    <classes>
+      <class name="accountManagement.TestLoginFunctionality">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="afterTest"/>
+          <include name="afterClass"/>
+          <include name="LoginToStore" invocation-numbers="1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- accountManagement.TestLoginFunctionality -->
+    </classes>
+  </test> <!-- TestLogin(failed) -->
+</suite> <!-- Failed suite [Suite usa black caviar] -->

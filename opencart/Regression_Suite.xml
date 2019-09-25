@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite usa black caviar">
+	<listeners>
+		<listener class-name="com.opencart.automation.customListeners.Listener"></listener>
+		<listener class-name="com.opencart.automation.customListeners.RetryListener"></listener> 
+	</listeners>
+	<parameter name="environment" value="stg" />
+	<parameter name="browserName" value="chrome" />
+	<test name="TestLogin">
+		<classes>
+			<class
+				name="accountManagement.TestLoginFunctionality">
+			</class>
+		</classes>
+	</test> 
+</suite> 

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<bumblebee>
+    <!-- URL of the Bumblebee Server -->
+    <bumblebee_url>http://10.175.7.137:8080/bumblebee</bumblebee_url>
+    <!-- URL of HP ALM Server -->
+    <alm_url>http://mspwva-ctwaqc01.csc.nycnet:8080/qcbin</alm_url>
+    <!-- Name of HP ALM User -->
+    <alm_user>selenium_automation</alm_user>
+    <!-- Encrypted password: please use http://server_name:port/bumblebee/password/encrypt to encrypt your plain text password  -->
+    <!-- password for user vk is [D80SpnhYli3cIacLm8afIg==] -->
+    <alm_encrypted_pass>D80SpnhYli3cIacLm8afIg==</alm_encrypted_pass>
+    <!-- HP ALM Domain -->
+    <alm_domain>NYC_GOV</alm_domain>
+    <!-- HP ALM Project -->
+    <alm_project>NYC_GOV_Reinvent</alm_project>
+    <!-- Asynchronous (offline) update -->
+   <!--  <async_update>true</async_update>--> 
+</bumblebee>
