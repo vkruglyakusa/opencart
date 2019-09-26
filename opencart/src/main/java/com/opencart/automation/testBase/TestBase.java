@@ -210,11 +210,11 @@ public class TestBase {
 		if (browser.equals("chrome")) {
 			log.info("Test with CHROME browser");
 			System.setProperty("webdriver.chrome.driver", "webDrivers\\chromedriver.exe");
-			Proxy proxy = new Proxy();
-			proxy.setProxyType(ProxyType.MANUAL);
-			proxy.setHttpProxy("bcpxy.nycnet:8080");
-			proxy.setSslProxy("bcpxy.nycnet:8080");
-			proxy.setNoProxy("127.0.0.1,localhost,10.*;192.168.*");
+//			Proxy proxy = new Proxy();
+//			proxy.setProxyType(ProxyType.MANUAL);
+//			proxy.setHttpProxy("bcpxy.nycnet:8080");
+//			proxy.setSslProxy("bcpxy.nycnet:8080");
+//			proxy.setNoProxy("127.0.0.1,localhost,10.*;192.168.*");
 			ChromeOptions options = new ChromeOptions();
 			// Create object of HashMap Class
 			Map<String, Object> prefs = new HashMap<String, Object>();
@@ -232,7 +232,7 @@ public class TestBase {
 			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
 			options.addArguments("--force-device-scale-factor=1");
 			options.addArguments("--disable-features=VizDisplayCompositor");
-			options.setCapability("proxy", proxy);
+		//	options.setCapability("proxy", proxy);
 			options.setPageLoadStrategy(PageLoadStrategy.NONE);
 			DesiredCapabilities capabilities = DesiredCapabilities.chrome();     
 			capabilities.setCapability (CapabilityType.ACCEPT_SSL_CERTS, true);
@@ -248,11 +248,11 @@ public class TestBase {
 		} else if (browser.equals("firefox") || browser.equals("FIFEFOX")) {
 			log.info("Test with FIREFOX browser");
 			System.setProperty("webdriver.gecko.driver", "WebDrivers\\geckodriver.exe");
-			Proxy proxy = new Proxy();
-			proxy.setProxyType(ProxyType.MANUAL);
-			proxy.setHttpProxy("bcpxy.nycnet:8080");
-			proxy.setSslProxy("bcpxy.nycnet:8080");
-			proxy.setNoProxy("127.0.0.1,localhost,10.*;192.168.*");
+//			Proxy proxy = new Proxy();
+//			proxy.setProxyType(ProxyType.MANUAL);
+//			proxy.setHttpProxy("bcpxy.nycnet:8080");
+//			proxy.setSslProxy("bcpxy.nycnet:8080");
+//			proxy.setNoProxy("127.0.0.1,localhost,10.*;192.168.*");
 			ChromeOptions options = new ChromeOptions();
 			options.addArguments("--disable-extensions");
 			options.addArguments("test-type");
@@ -260,7 +260,7 @@ public class TestBase {
 			options.addArguments("--ignore-certificate-errors");
 			options.addArguments("--headless");
 			options.setAcceptInsecureCerts(true);
-			options.setCapability("proxy", proxy);
+			//options.setCapability("proxy", proxy);
 			driver = new FirefoxDriver(options);
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
