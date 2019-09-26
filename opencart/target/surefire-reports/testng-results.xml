@@ -16,7 +16,7 @@
       <![CDATA[Test Method had the following parameters : ]]>
     </line>
     <line>
-      <![CDATA[Test Method had the following parameters : [Ljava.lang.Object;@7a356a0d]]>
+      <![CDATA[Test Method had the following parameters : [Ljava.lang.Object;@673bb956]]>
     </line>
     <line>
       <![CDATA[Test Status: Pass]]>
@@ -25,12 +25,12 @@
       <![CDATA[Test is skipped:LoginToStore]]>
     </line>
   </reporter-output>
-  <suite name="Suite usa black caviar" duration-ms="15950" started-at="2019-09-23T15:57:05Z" finished-at="2019-09-23T15:57:21Z">
+  <suite name="Suite usa black caviar" duration-ms="15766" started-at="2019-09-26T00:22:30Z" finished-at="2019-09-26T00:22:45Z">
     <groups>
     </groups>
-    <test name="TestLogin" duration-ms="15950" started-at="2019-09-23T15:57:05Z" finished-at="2019-09-23T15:57:21Z">
+    <test name="TestLogin" duration-ms="15766" started-at="2019-09-26T00:22:30Z" finished-at="2019-09-26T00:22:45Z">
       <class name="accountManagement.TestLoginFunctionality">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="setUp" is-config="true" duration-ms="6367" started-at="2019-09-23T15:57:05Z" finished-at="2019-09-23T15:57:12Z">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="setUp" is-config="true" duration-ms="5646" started-at="2019-09-26T00:22:30Z" finished-at="2019-09-26T00:22:35Z">
           <params>
             <param index="0">
               <value>
@@ -46,7 +46,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="beforeMethod" is-config="true" duration-ms="4" started-at="2019-09-23T15:57:12Z" finished-at="2019-09-23T15:57:12Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2019-09-26T00:22:36Z" finished-at="2019-09-26T00:22:36Z">
           <params>
             <param index="0">
               <value>
@@ -57,7 +57,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="LoginToStore" duration-ms="7391" started-at="2019-09-23T15:57:12Z" data-provider="getExcelData" finished-at="2019-09-23T15:57:19Z">
+        <test-method status="PASS" signature="LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="LoginToStore" duration-ms="4986" started-at="2019-09-26T00:22:36Z" data-provider="getExcelData" finished-at="2019-09-26T00:22:41Z">
           <params>
             <param index="0">
               <value>
@@ -88,25 +88,25 @@
               <![CDATA[Test Method had the following parameters : ]]>
             </line>
             <line>
-              <![CDATA[Test Method had the following parameters : [Ljava.lang.Object;@7a356a0d]]>
+              <![CDATA[Test Method had the following parameters : [Ljava.lang.Object;@673bb956]]>
             </line>
             <line>
               <![CDATA[Test Status: Pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- LoginToStore -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-09-23T15:57:19Z" finished-at="2019-09-23T15:57:19Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-09-26T00:22:41Z" finished-at="2019-09-26T00:22:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToStore status=SUCCESS method=TestLoginFunctionality.LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace] output=Test Method resides in accountManagement.TestLoginFunctionality]]]>
+                <![CDATA[[TestResult name=LoginToStore status=SUCCESS method=TestLoginFunctionality.LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121] output=Test Method resides in accountManagement.TestLoginFunctionality]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-09-23T15:57:19Z" finished-at="2019-09-23T15:57:19Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2019-09-26T00:22:41Z" finished-at="2019-09-26T00:22:41Z">
           <params>
             <param index="0">
               <value>
@@ -117,7 +117,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="SKIP" signature="LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="LoginToStore" duration-ms="6" started-at="2019-09-23T15:57:19Z" data-provider="getExcelData" finished-at="2019-09-23T15:57:19Z">
+        <test-method status="SKIP" signature="LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="LoginToStore" duration-ms="17" started-at="2019-09-26T00:22:41Z" data-provider="getExcelData" finished-at="2019-09-26T00:22:41Z">
           <params>
             <param index="0">
               <value>
@@ -186,26 +186,26 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
             </line>
           </reporter-output>
         </test-method> <!-- LoginToStore -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="afterMethod" is-config="true" duration-ms="1" started-at="2019-09-23T15:57:19Z" finished-at="2019-09-23T15:57:19Z">
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-09-26T00:22:41Z" finished-at="2019-09-26T00:22:41Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=LoginToStore status=SKIP method=TestLoginFunctionality.LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace] output=Test is skipped:LoginToStore]]]>
+                <![CDATA[[TestResult name=LoginToStore status=SKIP method=TestLoginFunctionality.LoginToStore(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121] output=Test is skipped:LoginToStore]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="afterClass" is-config="true" duration-ms="1611" started-at="2019-09-23T15:57:19Z" finished-at="2019-09-23T15:57:21Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="afterClass" is-config="true" duration-ms="3856" started-at="2019-09-26T00:22:41Z" finished-at="2019-09-26T00:22:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:accountManagement.TestLoginFunctionality@63475ace]" name="afterTest" is-config="true" duration-ms="76" started-at="2019-09-23T15:57:21Z" finished-at="2019-09-23T15:57:21Z">
+        <test-method status="PASS" signature="afterTest(org.testng.ITestContext)[pri:0, instance:accountManagement.TestLoginFunctionality@2de23121]" name="afterTest" is-config="true" duration-ms="232" started-at="2019-09-26T00:22:45Z" finished-at="2019-09-26T00:22:45Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@3005db4a]]>
+                <![CDATA[org.testng.TestRunner@6de30571]]>
               </value>
             </param>
           </params>

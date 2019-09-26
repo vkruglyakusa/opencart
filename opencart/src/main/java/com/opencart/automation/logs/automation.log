@@ -2519,3 +2519,469 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:55403}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
 Session ID: be6bf938406bc6b6f9cb398ee8c25a60
 2019-09-25 15:22:14 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-25 15:34:22 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-25 15:34:22 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-25 15:34:22 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-25 15:34:22 INFO  TestBase:211 - Test with CHROME browser
+2019-09-25 15:34:26 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-25 15:34:26 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-25 15:34:26 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 15:34:26 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 15:34:27 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-25 15:34:27 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 15:34:28 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 15:34:28 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 15:34:28 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 15:34:28 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 15:34:28 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 15:34:28 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=My Account
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: EventFiringWebDriver
+2019-09-25 15:34:31 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+2019-09-25 15:34:31 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 15:34:31 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 15:34:31 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 15:34:31 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:31 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+2019-09-25 15:34:31 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 15:34:31 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 15:34:31 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 15:34:31 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:31 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+2019-09-25 15:34:31 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 15:34:31 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 15:34:31 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 15:34:31 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:31 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:31 INFO  TestBase:503 - browser is closing
+2019-09-25 15:34:34 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '10.106.30.202', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:56108}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: d39b35bf6997ea54f7ba97b1f628a44b
+2019-09-25 15:34:34 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-25 20:16:27 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-25 20:16:28 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-25 20:16:28 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-25 20:16:28 INFO  TestBase:211 - Test with CHROME browser
+2019-09-25 20:16:32 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-25 20:16:32 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-25 20:16:32 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:16:32 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:16:33 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-25 20:16:33 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:16:34 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:16:34 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:16:34 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:16:34 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:16:34 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:16:34 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:16:53 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fb3cea4d812c5041f9d68fdd41f55a4
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:16:53 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+2019-09-25 20:16:53 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:16:53 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:16:53 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:16:53 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:16:53 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:16:53 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:16:53 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:17:14 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fb3cea4d812c5041f9d68fdd41f55a4
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:17:14 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+2019-09-25 20:17:14 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:17:14 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:17:14 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:17:14 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:17:15 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:17:15 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:17:15 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:17:30 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fb3cea4d812c5041f9d68fdd41f55a4
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:17:30 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+2019-09-25 20:17:30 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:17:30 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:17:30 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:17:30 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:17:30 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:17:30 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:17:30 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:17:45 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:62997}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1fb3cea4d812c5041f9d68fdd41f55a4
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:17:45 INFO  TestBase:371 - Capturing screenshot .... 
+2019-09-25 20:17:46 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:17:46 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:17:46 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:17:46 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:17:46 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:17:46 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:17:46 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:17:46 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:17:46 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:17:46 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:17:46 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:17:46 INFO  TestBase:503 - browser is closing
+2019-09-25 20:17:47 INFO  TestBase:511 - browser is closed
+2019-09-25 20:17:47 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-25 20:18:26 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-25 20:18:26 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-25 20:18:26 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-25 20:18:26 INFO  TestBase:211 - Test with CHROME browser
+2019-09-25 20:18:30 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-25 20:18:30 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-25 20:18:30 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:18:30 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:18:32 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-25 20:18:32 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:18:32 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:18:32 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:18:32 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:18:32 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:18:32 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:18:32 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:18:51 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:18:51 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+2019-09-25 20:18:51 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:18:52 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:18:52 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:18:52 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:18:52 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:18:52 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:18:52 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:19:13 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:19:13 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+2019-09-25 20:19:13 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:19:13 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:19:13 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:19:13 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:19:13 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:19:13 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:19:13 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:19:16 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=My Account
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: EventFiringWebDriver
+2019-09-25 20:19:16 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+2019-09-25 20:19:16 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:19:16 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:19:16 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:19:16 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:19:16 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+2019-09-25 20:19:16 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+2019-09-25 20:19:16 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+2019-09-25 20:19:16 INFO  TestBase:503 - browser is closing
+2019-09-25 20:19:19 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63122}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f5c590095bb130f7cca0132fa82a67ea
+2019-09-25 20:19:19 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-25 20:20:24 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-25 20:20:24 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-25 20:20:24 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-25 20:20:24 INFO  TestBase:211 - Test with CHROME browser
+2019-09-25 20:20:28 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-25 20:20:28 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-25 20:20:28 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:20:28 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:20:30 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-25 20:20:30 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:20:31 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:20:31 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:20:31 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:20:31 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:20:31 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:20:31 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:20:50 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:20:50 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+2019-09-25 20:20:50 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:20:50 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:20:50 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:20:50 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:20:50 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:20:50 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:20:50 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:21:06 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"My Account"}
+  (Session info: chrome=76.0.3809.132)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+*** Element info: {Using=link text, value=My Account}
+2019-09-25 20:21:06 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+2019-09-25 20:21:06 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:21:06 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:21:06 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:21:06 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:21:06 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:21:06 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:21:06 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:21:11 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchElementException: Cannot locate an element using link text=My Account
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: driver.version: EventFiringWebDriver
+2019-09-25 20:21:11 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+2019-09-25 20:21:11 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:21:11 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:21:11 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:21:11 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:21:11 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+2019-09-25 20:21:11 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+2019-09-25 20:21:11 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+2019-09-25 20:21:11 INFO  TestBase:503 - browser is closing
+2019-09-25 20:21:13 INFO  WebEventListener:67 - Exception occured: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=76.0.3809.132)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-GOJ5L9I', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 76.0.3809.132, chrome: {chromedriverVersion: 76.0.3809.126 (d80a294506b4..., userDataDir: C:\Users\vk\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:63226}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: none, platform: XP, platformName: XP, proxy: Proxy(manual, http=bcpxy.ny..., setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ae58c427c61c33faba6981aa0e2cc477
+2019-09-25 20:21:13 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-25 20:22:30 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-25 20:22:30 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-25 20:22:30 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-25 20:22:30 INFO  TestBase:211 - Test with CHROME browser
+2019-09-25 20:22:34 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-25 20:22:34 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-25 20:22:34 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:22:34 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:22:35 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-25 20:22:35 INFO  TestBase:1036 - read excel file - TestingData.xlsx and sheet name is Login_Data
+2019-09-25 20:22:36 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:22:36 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:22:36 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:22:36 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:22:36 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:22:36 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: My Account]
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: My Account]
+2019-09-25 20:22:37 INFO  TestBase:647 - Waiting time for element is - 128 milliseconds
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-25 20:22:37 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: My Account]
+2019-09-25 20:22:37 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: My Account]
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Login]
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Login]
+2019-09-25 20:22:37 INFO  TestBase:647 - Waiting time for element is - 71 milliseconds
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-25 20:22:37 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Login]
+2019-09-25 20:22:37 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Login]
+2019-09-25 20:22:37 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> xpath: .//*[@id='input-email']]
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> id: input-password]
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-25 20:22:38 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-25 20:22:38 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-25 20:22:38 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-25 20:22:38 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-25 20:22:38 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-25 20:22:40 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/account] to load....
+2019-09-25 20:22:40 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)
+2019-09-25 20:22:40 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)
+2019-09-25 20:22:40 INFO  TestBase:862 - Page loading time is: 45 ms
+2019-09-25 20:22:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  AccountPage:25 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Logout]
+2019-09-25 20:22:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Logout]
+2019-09-25 20:22:40 INFO  TestBase:647 - Waiting time for element is - 123 milliseconds
+2019-09-25 20:22:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-25 20:22:40 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Logout]
+2019-09-25 20:22:40 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Logout]
+2019-09-25 20:22:41 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/logout] to load....
+2019-09-25 20:22:41 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)
+2019-09-25 20:22:41 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)
+2019-09-25 20:22:41 INFO  TestBase:862 - Page loading time is: 32 ms
+2019-09-25 20:22:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  LogoutPage:25 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Continue]
+2019-09-25 20:22:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Continue]
+2019-09-25 20:22:41 INFO  TestBase:647 - Waiting time for element is - 72 milliseconds
+2019-09-25 20:22:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-25 20:22:41 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Continue]
+2019-09-25 20:22:41 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (cc65b93b4eeca4dda26dd72d5a1b5d30)] -> link text: Continue]
+2019-09-25 20:22:41 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-25 20:22:41 INFO  TestBase:341 - Navigate to base URL
+2019-09-25 20:22:41 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-25 20:22:41 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-25 20:22:41 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-25 20:22:41 INFO  TestBase:503 - browser is closing
+2019-09-25 20:22:45 INFO  TestBase:511 - browser is closed
+2019-09-25 20:22:45 INFO  TestBase:449 - -----TestLogin - test Ended -----

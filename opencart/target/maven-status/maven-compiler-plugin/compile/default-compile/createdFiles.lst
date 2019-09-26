@@ -16,11 +16,11 @@ com\opencart\automation\utility\mailinator\Mailinator.class
 com\opencart\automation\utility\PropertiesReader.class
 com\opencart\automation\testBase\TestBase$2.class
 com\opencart\automation\customListeners\RetryListener.class
-com\opencart\automation\utility\mailinator\Email.class
 com\opencart\automation\utility\Excel_Reader.class
+com\opencart\automation\utility\mailinator\Email.class
 com\opencart\automation\customListeners\Retry.class
-com\opencart\automation\utility\pojoClasses\Property.class
 com\opencart\automation\utility\CSVUtils.class
+com\opencart\automation\utility\pojoClasses\Property.class
 com\opencart\automation\utility\mailinator\InboxMessage.class
 com\opencart\automation\testBase\TestBase$1.class
 com\opencart\automation\utility\mailinator\Email$EmailPart.class
