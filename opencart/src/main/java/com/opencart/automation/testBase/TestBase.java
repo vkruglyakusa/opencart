@@ -211,7 +211,7 @@ public class TestBase {
 			log.info("Test with CHROME browser");
 			System.setProperty("webdriver.chrome.driver", "webDrivers\\chromedriver.exe");
 //			Proxy proxy = new Proxy();
-//			proxy.setProxyType(ProxyType.MANUAL);
+//			proxy.setProxyType(ProxyType.MANUAL); 
 //			proxy.setHttpProxy("bcpxy.nycnet:8080");
 //			proxy.setSslProxy("bcpxy.nycnet:8080");
 //			proxy.setNoProxy("127.0.0.1,localhost,10.*;192.168.*");
