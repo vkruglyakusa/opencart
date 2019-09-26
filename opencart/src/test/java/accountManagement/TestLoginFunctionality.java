@@ -21,7 +21,7 @@ public class TestLoginFunctionality extends TestBase {
 	AccountPage accauntPage;
 	LogoutPage logoutPage;
 
-	@Test(dataProvider = "getCSVData")
+	@Test(dataProvider = "getExcelData")
 	public void LoginToStore(String testCase, String loginName, String password, String runMode) throws Exception {
 
 		navigateToBaseUrl();
