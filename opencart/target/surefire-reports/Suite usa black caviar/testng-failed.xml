@@ -15,7 +15,7 @@
           <include name="setUp"/>
           <include name="afterTest"/>
           <include name="afterClass"/>
-          <include name="LoginToStore" invocation-numbers="1"/>
+          <include name="LoginToStore" invocation-numbers="1 1 1 1"/>
           <include name="beforeMethod"/>
         </methods>
       </class> <!-- accountManagement.TestLoginFunctionality -->

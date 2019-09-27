@@ -2985,3 +2985,329 @@ Session ID: ae58c427c61c33faba6981aa0e2cc477
 2019-09-25 20:22:41 INFO  TestBase:503 - browser is closing
 2019-09-25 20:22:45 INFO  TestBase:511 - browser is closed
 2019-09-25 20:22:45 INFO  TestBase:449 - -----TestLogin - test Ended -----
+2019-09-26 11:43:29 INFO  TestBase:464 - Testing data set loading for [stg] environment 
+2019-09-26 11:43:29 INFO  TestBase:474 - Test data source file is - TestingData.xlsx
+2019-09-26 11:43:29 INFO  TestBase:494 - Specified BaseURL is - http://usablackcaviar.com/
+2019-09-26 11:43:29 INFO  TestBase:211 - Test with CHROME browser
+2019-09-26 11:43:33 INFO  TestBase:243 - Browser Version - 76.0.3809.132
+2019-09-26 11:43:33 INFO  TestBase:289 - navigating to :-http://usablackcaviar.com/
+2019-09-26 11:43:33 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:33 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:35 INFO  TestBase:197 - The browser session has been initialized with supplied parameters - chrome / http://usablackcaviar.com/
+2019-09-26 11:43:35 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:35 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:35 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:35 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:35 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:35 INFO  TestBase:647 - Waiting time for element is - 104 milliseconds
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:35 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:35 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:35 INFO  TestBase:647 - Waiting time for element is - 58 milliseconds
+2019-09-26 11:43:35 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:35 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:36 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:36 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:36 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:36 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:37 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:37 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:37 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:37 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:37 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:37 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:37 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:38 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/account] to load....
+2019-09-26 11:43:38 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:38 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:38 INFO  TestBase:862 - Page loading time is: 43 ms
+2019-09-26 11:43:38 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  AccountPage:25 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Logout]
+2019-09-26 11:43:38 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Logout]
+2019-09-26 11:43:38 INFO  TestBase:647 - Waiting time for element is - 75 milliseconds
+2019-09-26 11:43:38 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:77 - Found Element By : By.linkText: Logout
+2019-09-26 11:43:38 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Logout]
+2019-09-26 11:43:38 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Logout]
+2019-09-26 11:43:39 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/logout] to load....
+2019-09-26 11:43:39 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:39 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:39 INFO  TestBase:862 - Page loading time is: 20 ms
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  LogoutPage:25 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Continue]
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Continue]
+2019-09-26 11:43:39 INFO  TestBase:647 - Waiting time for element is - 85 milliseconds
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: Continue
+2019-09-26 11:43:39 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Continue]
+2019-09-26 11:43:39 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Continue]
+2019-09-26 11:43:39 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:39 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:39 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:39 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:39 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  TestBase:647 - Waiting time for element is - 94 milliseconds
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  TestBase:647 - Waiting time for element is - 43 milliseconds
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:41 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:41 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:41 INFO  TestBase:862 - Page loading time is: 22 ms
+2019-09-26 11:43:41 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+2019-09-26 11:43:41 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:41 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:41 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:41 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:41 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  TestBase:647 - Waiting time for element is - 73 milliseconds
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  TestBase:647 - Waiting time for element is - 46 milliseconds
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:43 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:43 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:43 INFO  TestBase:862 - Page loading time is: 42 ms
+2019-09-26 11:43:43 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+2019-09-26 11:43:43 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:43 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:43 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:43 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:43 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  TestBase:647 - Waiting time for element is - 105 milliseconds
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  TestBase:647 - Waiting time for element is - 64 milliseconds
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:44 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:45 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:46 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:46 INFO  TestBase:862 - Page loading time is: 44 ms
+2019-09-26 11:43:46 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+2019-09-26 11:43:46 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:46 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:46 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:46 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:46 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  TestBase:647 - Waiting time for element is - 94 milliseconds
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  TestBase:647 - Waiting time for element is - 65 milliseconds
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:48 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:48 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:48 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:48 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:48 INFO  TestBase:862 - Page loading time is: 13 ms
+2019-09-26 11:43:48 INFO  TestBase:371 - Capturing screenshot .... 
+2019-09-26 11:43:49 INFO  TestBase:503 - browser is closing
+2019-09-26 11:43:50 INFO  TestBase:511 - browser is closed
+2019-09-26 11:43:50 INFO  TestBase:449 - -----TestLogin - test Ended -----

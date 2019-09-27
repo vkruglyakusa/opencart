@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Suite_usa_black_caviar">
-              <span class="suite-name border-skipped">Suite usa black caviar</span>
+              <span class="suite-name border-failed">Suite usa black caviar</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,  1 skipped,  1 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,  3 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite_usa_black_caviar" class="hide-methods failed suite-Suite_usa_black_caviar"> (hide)</a> <!-- hide-methods failed suite-Suite_usa_black_caviar -->
+                      <a href="#" panel-name="suite-Suite_usa_black_caviar" class="show-methods failed suite-Suite_usa_black_caviar"> (show)</a> <!-- show-methods failed suite-Suite_usa_black_caviar -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite_usa_black_caviar">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_usa_black_caviar" title="accountManagement.TestLoginFunctionality" hash-for-method="LoginToStore(TC_002, test@test.com, test, Y)">LoginToStore(TC_002, test@test.com, test, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite_usa_black_caviar -->
                   </li>
                   <li>
                     <span class="method-list-title skipped">Skipped methods</span>
@@ -102,7 +116,17 @@
                     <div class="method-list-content skipped suite-Suite_usa_black_caviar">
                       <span>
                         <img width="3%" src="skipped.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite_usa_black_caviar" title="accountManagement.TestLoginFunctionality" hash-for-method="LoginToStore(TC_002, test@test.com, test, N)">LoginToStore(TC_002, test@test.com, test, N)</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_usa_black_caviar" title="accountManagement.TestLoginFunctionality" hash-for-method="LoginToStore(TC_002, test@test.com, test, Y)">LoginToStore(TC_002, test@test.com, test, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_usa_black_caviar" title="accountManagement.TestLoginFunctionality" hash-for-method="LoginToStore(TC_002, test@test.com, test, Y)">LoginToStore(TC_002, test@test.com, test, Y)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_usa_black_caviar" title="accountManagement.TestLoginFunctionality" hash-for-method="LoginToStore(TC_002, test@test.com, test, Y)">LoginToStore(TC_002, test@test.com, test, Y)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content skipped suite-Suite_usa_black_caviar -->
@@ -131,6 +155,28 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite_usa_black_caviar" class="panel Suite_usa_black_caviar">
+          <div class="suite-Suite_usa_black_caviar-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">accountManagement.TestLoginFunctionality</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToStore(TC_002, test@test.com, test, Y)">
+                  </a> <!-- LoginToStore(TC_002, test@test.com, test, Y) -->
+                  <span class="method-name">LoginToStore</span>
+                  <span class="parameters">(TC_002, test@test.com, test, Y)</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:37)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_usa_black_caviar-class-failed -->
           <div class="suite-Suite_usa_black_caviar-class-skipped">
             <div class="main-panel-header rounded-window-top">
               <img src="skipped.png"/>
@@ -139,13 +185,42 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="LoginToStore(TC_002, test@test.com, test, N)">
-                  </a> <!-- LoginToStore(TC_002, test@test.com, test, N) -->
+                  <a name="LoginToStore(TC_002, test@test.com, test, Y)">
+                  </a> <!-- LoginToStore(TC_002, test@test.com, test, Y) -->
                   <span class="method-name">LoginToStore</span>
-                  <span class="parameters">(TC_002, test@test.com, test, N)</span>
-                  <div class="stack-trace">org.testng.SkipException: Skip the test
-	at com.opencart.automation.testBase.TestBase.runModeValidator(TestBase.java:1006)
-	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:28)
+                  <span class="parameters">(TC_002, test@test.com, test, Y)</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:37)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToStore(TC_002, test@test.com, test, Y)">
+                  </a> <!-- LoginToStore(TC_002, test@test.com, test, Y) -->
+                  <span class="method-name">LoginToStore</span>
+                  <span class="parameters">(TC_002, test@test.com, test, Y)</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:37)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="LoginToStore(TC_002, test@test.com, test, Y)">
+                  </a> <!-- LoginToStore(TC_002, test@test.com, test, Y) -->
+                  <span class="method-name">LoginToStore</span>
+                  <span class="parameters">(TC_002, test@test.com, test, Y)</span>
+                  <div class="stack-trace">org.junit.ComparisonFailure: expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:125)
+	at org.junit.Assert.assertEquals(Assert.java:147)
+	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:37)
 ... Removed 29 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -226,20 +301,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'LoginToStore')
 data.setCell(0, 2, 'accountManagement.TestLoginFunctionality')
-data.setCell(0, 3, 4986);
+data.setCell(0, 3, 4234);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'LoginToStore')
 data.setCell(1, 2, 'accountManagement.TestLoginFunctionality')
-data.setCell(1, 3, 17);
+data.setCell(1, 3, 2503);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'LoginToStore')
+data.setCell(2, 2, 'accountManagement.TestLoginFunctionality')
+data.setCell(2, 3, 2309);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'LoginToStore')
+data.setCell(3, 2, 'accountManagement.TestLoginFunctionality')
+data.setCell(3, 3, 2182);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'LoginToStore')
+data.setCell(4, 2, 'accountManagement.TestLoginFunctionality')
+data.setCell(4, 3, 2131);
 window.suiteTableData['Suite_usa_black_caviar']= { tableData: data, tableDiv: 'times-div-Suite_usa_black_caviar'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
               <div id="times-div-Suite_usa_black_caviar">
               </div> <!-- times-div-Suite_usa_black_caviar -->
             </div> <!-- times-div -->
@@ -255,13 +342,38 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Test Method resides in accountManagement.TestLoginFunctionality</span>
                 <span class="reporter-method-output">Test Method had the following parameters : </span>
-                <span class="reporter-method-output">Test Method had the following parameters : [Ljava.lang.Object;@673bb956</span>
+                <span class="reporter-method-output">Test Method had the following parameters : [Ljava.lang.Object;@6c345c5f</span>
                 <span class="reporter-method-output">Test Status: Pass</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">LoginToStore(TC_002, test@test.com, test, N)</span>
+              <span class="reporter-method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
               <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><a href='C:\Users\vk\git\opencart_pom\opencart\test-output\pom_framework_output\screenshots\failed_tests\LoginToStore_26_09_2019_11_43_48.png'> <img src='C:\Users\vk\git\opencart_pom\opencart\test-output\pom_framework_output\screenshots\failed_tests\LoginToStore_26_09_2019_11_43_48.png' height='100' width='100'/> </a></span>
+                <span class="reporter-method-output">Test Method resides in accountManagement.TestLoginFunctionality</span>
+                <span class="reporter-method-output">Test Method had the following parameters : </span>
+                <span class="reporter-method-output">Test Method had the following parameters : [Ljava.lang.Object;@66434cc8</span>
+                <span class="reporter-method-output">Test Status: Failed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Retrying test LoginToStore with status FAILURE for the 2 time(s).</span>
+                <span class="reporter-method-output">Test is skipped:LoginToStore</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Retrying test LoginToStore with status FAILURE for the 1 time(s).</span>
+                <span class="reporter-method-output">Test is skipped:LoginToStore</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Retrying test LoginToStore with status FAILURE for the 3 time(s).</span>
                 <span class="reporter-method-output">Test is skipped:LoginToStore</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
@@ -287,35 +399,73 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void accountManagement.TestLoginFunctionality.LoginToStore(java.lang.String,java.lang.String,...)</span>
-                <span class="method-start">6644 ms</span>
+                <span class="method-start">5519 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">LoginToStore(TC_001, kvalera29@gmail.com, test, Y)</span>
-                <span class="method-start">6649 ms</span>
+                <span class="method-start">5524 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=LoginToStore status=SUCCESS method=TestLoginFunctionality.LoginToStore(java.lang.St...)</span>
-                <span class="method-start">11636 ms</span>
+                <span class="method-start">9759 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforeMethod(public void accountManagement.TestLoginFunctionality.LoginToStore(java.lang.String,java.lang.String,...)</span>
-                <span class="method-start">11637 ms</span>
+                <span class="method-start">9760 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">LoginToStore(TC_002, test@test.com, test, N)</span>
-                <span class="method-start">11638 ms</span>
+                <span class="method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+                <span class="method-start">9761 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">afterMethod([TestResult name=LoginToStore status=SKIP method=TestLoginFunctionality.LoginToStore(java.lang.Strin...)</span>
-                <span class="method-start">11656 ms</span>
+                <span class="method-start">11894 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void accountManagement.TestLoginFunctionality.LoginToStore(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">11896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+                <span class="method-start">11897 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=LoginToStore status=SKIP method=TestLoginFunctionality.LoginToStore(java.lang.Strin...)</span>
+                <span class="method-start">14079 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void accountManagement.TestLoginFunctionality.LoginToStore(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">14082 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+                <span class="method-start">14084 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=LoginToStore status=SKIP method=TestLoginFunctionality.LoginToStore(java.lang.Strin...)</span>
+                <span class="method-start">16394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void accountManagement.TestLoginFunctionality.LoginToStore(java.lang.String,java.lang.String,...)</span>
+                <span class="method-start">16396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">LoginToStore(TC_002, test@test.com, test, Y)</span>
+                <span class="method-start">16397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=LoginToStore status=FAILURE method=TestLoginFunctionality.LoginToStore(java.lang.St...)</span>
+                <span class="method-start">19289 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-class after">
                 <span class="method-name">afterClass</span>
-                <span class="method-start">11657 ms</span>
+                <span class="method-start">19616 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-test after">
-                <span class="method-name">afterTest(org.testng.TestRunner@6de30571)</span>
-                <span class="method-start">15519 ms</span>
+                <span class="method-name">afterTest(org.testng.TestRunner@7cab1508)</span>
+                <span class="method-start">20926 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

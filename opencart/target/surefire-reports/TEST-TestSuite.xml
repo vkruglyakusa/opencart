@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="18.086" tests="2" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="23.4" tests="5" errors="0" skipped="3" failures="1">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\vk\AppData\Local\Temp\surefire8506271275559164134\surefirebooter8763028594391074509.jar C:\Users\vk\AppData\Local\Temp\surefire8506271275559164134 2019-09-25T20-22-26_314-jvmRun1 surefire7365300445467387680tmp surefire_01921853085621145184tmp"/>
+    <property name="sun.java.command" value="C:\Users\vk\AppData\Local\Temp\surefire6762450809916000800\surefirebooter3912219184436495465.jar C:\Users\vk\AppData\Local\Temp\surefire6762450809916000800 2019-09-26T11-43-05_075-jvmRun1 surefire7099715250113480001tmp surefire_03896971427636471169tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\vk\git\opencart_pom\opencart\target\test-classes;C:\Users\vk\git\opencart_pom\opencart\target\classes;C:\Users\vk\.m2\repository\org\apache\maven\plugins\maven-compiler-plugin\3.8.0\maven-compiler-plugin-3.8.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-plugin-api\3.0\maven-plugin-api-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-model\3.0\maven-model-3.0.jar;C:\Users\vk\.m2\repository\org\sonatype\sisu\sisu-inject-plexus\1.4.2\sisu-inject-plexus-1.4.2.jar;C:\Users\vk\.m2\repository\org\sonatype\sisu\sisu-inject-bean\1.4.2\sisu-inject-bean-1.4.2.jar;C:\Users\vk\.m2\repository\org\sonatype\sisu\sisu-guice\2.1.7\sisu-guice-2.1.7-noaop.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-artifact\3.0\maven-artifact-3.0.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-utils\2.0.4\plexus-utils-2.0.4.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-core\3.0\maven-core-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-settings\3.0\maven-settings-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-settings-builder\3.0\maven-settings-builder-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-repository-metadata\3.0\maven-repository-metadata-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-model-builder\3.0\maven-model-builder-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-aether-provider\3.0\maven-aether-provider-3.0.jar;C:\Users\vk\.m2\repository\org\sonatype\aether\aether-impl\1.7\aether-impl-1.7.jar;C:\Users\vk\.m2\repository\org\sonatype\aether\aether-spi\1.7\aether-spi-1.7.jar;C:\Users\vk\.m2\repository\org\sonatype\aether\aether-api\1.7\aether-api-1.7.jar;C:\Users\vk\.m2\repository\org\sonatype\aether\aether-util\1.7\aether-util-1.7.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-interpolation\1.14\plexus-interpolation-1.14.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-classworlds\2.2.3\plexus-classworlds-2.2.3.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-component-annotations\1.5.5\plexus-component-annotations-1.5.5.jar;C:\Users\vk\.m2\repository\org\sonatype\plexus\plexus-sec-dispatcher\1.3\plexus-sec-dispatcher-1.3.jar;C:\Users\vk\.m2\repository\org\sonatype\plexus\plexus-cipher\1.4\plexus-cipher-1.4.jar;C:\Users\vk\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.2.1\maven-shared-utils-3.2.1.jar;C:\Users\vk\.m2\repository\org\apache\maven\shared\maven-shared-incremental\1.1\maven-shared-incremental-1.1.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-java\0.9.10\plexus-java-0.9.10.jar;C:\Users\vk\.m2\repository\org\ow2\asm\asm\6.2\asm-6.2.jar;C:\Users\vk\.m2\repository\com\thoughtworks\qdox\qdox\2.0-M8\qdox-2.0-M8.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-compiler-api\2.8.4\plexus-compiler-api-2.8.4.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-compiler-manager\2.8.4\plexus-compiler-manager-2.8.4.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-compiler-javac\2.8.4\plexus-compiler-javac-2.8.4.jar;C:\Users\vk\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\vk\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\vk\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\vk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\vk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\vk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\vk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\vk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\vk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\vk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\vk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\vk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\vk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\vk\.m2\repository\org\apache\poi\poi-ooxml\3.17\poi-ooxml-3.17.jar;C:\Users\vk\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.17\poi-ooxml-schemas-3.17.jar;C:\Users\vk\.m2\repository\org\apache\xmlbeans\xmlbeans\2.6.0\xmlbeans-2.6.0.jar;C:\Users\vk\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\vk\.m2\repository\com\github\virtuald\curvesapi\1.04\curvesapi-1.04.jar;C:\Users\vk\.m2\repository\org\apache\poi\poi\3.17\poi-3.17.jar;C:\Users\vk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\vk\.m2\repository\org\apache\commons\commons-collections4\4.1\commons-collections4-4.1.jar;C:\Users\vk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\vk\.m2\repository\com\relevantcodes\extentreports\2.40.2\extentreports-2.40.2.jar;C:\Users\vk\.m2\repository\org\jsoup\jsoup\1.8.3\jsoup-1.8.3.jar;C:\Users\vk\.m2\repository\org\xerial\sqlite-jdbc\3.8.11.1\sqlite-jdbc-3.8.11.1.jar;C:\Users\vk\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\vk\.m2\repository\com\agiletestware\bumblebee-annotations\0.0.9\bumblebee-annotations-0.0.9.jar;C:\Users\vk\.m2\repository\com\agiletestware\bumblebee-shared\0.1.0\bumblebee-shared-0.1.0.jar;C:\Users\vk\.m2\repository\com\google\code\gson\gson\2.6.2\gson-2.6.2.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\selenium-server\2.53.1\selenium-server-2.53.1.jar;C:\Users\vk\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\vk\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\vk\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20150730\jetty-repacked-9.2.13.v20150730.jar;C:\Users\vk\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\vk\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\vk\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\vk\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\vk\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\vk\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\vk\.m2\repository\org\glassfish\jersey\core\jersey-client\2.24.1\jersey-client-2.24.1.jar;C:\Users\vk\.m2\repository\javax\ws\rs\javax.ws.rs-api\2.0.1\javax.ws.rs-api-2.0.1.jar;C:\Users\vk\.m2\repository\org\glassfish\jersey\core\jersey-common\2.24.1\jersey-common-2.24.1.jar;C:\Users\vk\.m2\repository\javax\annotation\javax.annotation-api\1.2\javax.annotation-api-1.2.jar;C:\Users\vk\.m2\repository\org\glassfish\jersey\bundles\repackaged\jersey-guava\2.24.1\jersey-guava-2.24.1.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\hk2-api\2.5.0-b05\hk2-api-2.5.0-b05.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\hk2-utils\2.5.0-b05\hk2-utils-2.5.0-b05.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\external\aopalliance-repackaged\2.5.0-b05\aopalliance-repackaged-2.5.0-b05.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\external\javax.inject\2.5.0-b05\javax.inject-2.5.0-b05.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\hk2-locator\2.5.0-b05\hk2-locator-2.5.0-b05.jar;C:\Users\vk\.m2\repository\org\javassist\javassist\3.20.0-GA\javassist-3.20.0-GA.jar;C:\Users\vk\.m2\repository\org\glassfish\jersey\media\jersey-media-jaxb\2.24.1\jersey-media-jaxb-2.24.1.jar;C:\Users\vk\.m2\repository\org\glassfish\hk2\osgi-resource-locator\1.0.1\osgi-resource-locator-1.0.1.jar;C:\Users\vk\.m2\repository\org\glassfish\jersey\media\jersey-media-multipart\2.24.1\jersey-media-multipart-2.24.1.jar;C:\Users\vk\.m2\repository\org\jvnet\mimepull\mimepull\1.9.6\mimepull-1.9.6.jar;C:\Users\vk\.m2\repository\net\sourceforge\csvjdbc\csvjdbc\1.0.34\csvjdbc-1.0.34.jar;C:\Users\vk\.m2\repository\com\opencsv\opencsv\4.2\opencsv-4.2.jar;C:\Users\vk\.m2\repository\org\apache\commons\commons-text\1.3\commons-text-1.3.jar;C:\Users\vk\.m2\repository\commons-beanutils\commons-beanutils\1.9.3\commons-beanutils-1.9.3.jar;C:\Users\vk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\vk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\vk\.m2\repository\org\json\json\20180813\json-20180813.jar;C:\Users\vk\.m2\repository\org\tomdz\maven\sphinx-maven-plugin\1.0.3\sphinx-maven-plugin-1.0.3.jar;C:\Users\vk\.m2\repository\org\apache\maven\reporting\maven-reporting-api\3.0\maven-reporting-api-3.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-sink-api\1.0\doxia-sink-api-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\reporting\maven-reporting-impl\2.0.5\maven-reporting-impl-2.0.5.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-project\2.0.6\maven-project-2.0.6.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-profile\2.0.6\maven-profile-2.0.6.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-artifact-manager\2.0.6\maven-artifact-manager-2.0.6.jar;C:\Users\vk\.m2\repository\org\apache\maven\wagon\wagon-provider-api\1.0-beta-2\wagon-provider-api-1.0-beta-2.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-plugin-registry\2.0.6\maven-plugin-registry-2.0.6.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-core\1.0\doxia-core-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-site-renderer\1.0\doxia-site-renderer-1.0.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-i18n\1.0-beta-7\plexus-i18n-1.0-beta-7.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-velocity\1.1.7\plexus-velocity-1.1.7.jar;C:\Users\vk\.m2\repository\org\apache\velocity\velocity\1.5\velocity-1.5.jar;C:\Users\vk\.m2\repository\commons-lang\commons-lang\2.1\commons-lang-2.1.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-decoration-model\1.0\doxia-decoration-model-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-module-apt\1.0\doxia-module-apt-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-module-fml\1.0\doxia-module-fml-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-module-xdoc\1.0\doxia-module-xdoc-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\doxia\doxia-module-xhtml\1.0\doxia-module-xhtml-1.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\shared\maven-doxia-tools\1.0.2\maven-doxia-tools-1.0.2.jar;C:\Users\vk\.m2\repository\commons-validator\commons-validator\1.2.0\commons-validator-1.2.0.jar;C:\Users\vk\.m2\repository\commons-digester\commons-digester\1.6\commons-digester-1.6.jar;C:\Users\vk\.m2\repository\oro\oro\2.0.8\oro-2.0.8.jar;C:\Users\vk\.m2\repository\org\apache\maven\maven-plugin-descriptor\2.2.1\maven-plugin-descriptor-2.2.1.jar;C:\Users\vk\.m2\repository\org\codehaus\plexus\plexus-container-default\1.0-alpha-9-stable-1\plexus-container-default-1.0-alpha-9-stable-1.jar;C:\Users\vk\.m2\repository\classworlds\classworlds\1.1-alpha-2\classworlds-1.1-alpha-2.jar;C:\Users\vk\.m2\repository\org\apache\commons\commons-compress\1.1\commons-compress-1.1.jar;C:\Users\vk\.m2\repository\org\python\jython-standalone\2.5.2\jython-standalone-2.5.2.jar;C:\Users\vk\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\vk\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\vk\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\vk\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\vk\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\vk\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\vk\.m2\repository\com\monitorjbl\xlsx-streamer\2.1.0\xlsx-streamer-2.1.0.jar;C:\Users\vk\.m2\repository\com\rackspace\apache\xerces2-xsd11\2.11.1\xerces2-xsd11-2.11.1.jar;C:\Users\vk\.m2\repository\com\rackspace\eclipse\webtools\sourceediting\org.eclipse.wst.xml.xpath2.processor\2.1.100\org.eclipse.wst.xml.xpath2.processor-2.1.100.jar;C:\Users\vk\.m2\repository\edu\princeton\cup\java-cup\10k\java-cup-10k.jar;C:\Users\vk\.m2\repository\com\ibm\icu\icu4j\4.6\icu4j-4.6.jar;C:\Users\vk\.m2\repository\xml-resolver\xml-resolver\1.2\xml-resolver-1.2.jar;C:\Users\vk\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\vk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\vk\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.22.0\surefire-testng-utils-2.22.0.jar;C:\Users\vk\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.22.0\surefire-grouper-2.22.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\vk"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\vk\AppData\Local\Temp\surefire8506271275559164134\surefirebooter8763028594391074509.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\vk\AppData\Local\Temp\surefire6762450809916000800\surefirebooter3912219184436495465.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_221\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_221\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_221\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -62,18 +62,254 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="4.993"/>
+  <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="4.234"/>
   <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="0">
-    <skipped message="Skip the test"/>
+    <skipped message="expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;"/>
     <system-out><![CDATA[Test Method resides in accountManagement.TestLoginFunctionality
 Test Method had the following parameters : 
-Test Method had the following parameters : [Ljava.lang.Object;@673bb956
+Test Method had the following parameters : [Ljava.lang.Object;@6c345c5f
 Test Status: Pass
-2019-09-25 20:22:41 INFO  TestBase:438 - ------LoginToStore - test Started ------
-2019-09-25 20:22:41 INFO  TestBase:341 - Navigate to base URL
-2019-09-25 20:22:41 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
-2019-09-25 20:22:41 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
-2019-09-25 20:22:41 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:39 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:39 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:39 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:39 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:39 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:39 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:39 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  TestBase:647 - Waiting time for element is - 94 milliseconds
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:40 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  TestBase:647 - Waiting time for element is - 43 milliseconds
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:40 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:40 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:41 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:41 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:41 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:41 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:41 INFO  TestBase:862 - Page loading time is: 22 ms
+2019-09-26 11:43:41 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 1 time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="0">
+    <skipped message="expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;"/>
+    <system-out><![CDATA[2019-09-26 11:43:41 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:41 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:41 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:41 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:41 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:41 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:41 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  TestBase:647 - Waiting time for element is - 73 milliseconds
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:42 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  TestBase:647 - Waiting time for element is - 46 milliseconds
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:42 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:42 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:43 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:43 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:43 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:43 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:43 INFO  TestBase:862 - Page loading time is: 42 ms
+2019-09-26 11:43:43 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 2 time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="0">
+    <skipped message="expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;"/>
+    <system-out><![CDATA[2019-09-26 11:43:43 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:43 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:43 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:43 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:43 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:43 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  TestBase:647 - Waiting time for element is - 105 milliseconds
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:44 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  TestBase:647 - Waiting time for element is - 64 milliseconds
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:44 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:44 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:44 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:44 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:45 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:45 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:45 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:46 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:46 INFO  TestBase:862 - Page loading time is: 44 ms
+2019-09-26 11:43:46 INFO  Retry:40 - Retrying test LoginToStore with status FAILURE for the 3 time(s).
+]]></system-out>
+  </testcase>
+  <testcase name="LoginToStore" classname="accountManagement.TestLoginFunctionality" time="2.515">
+    <failure message="expected:&lt;[Account Login]&gt; but was:&lt;[My Account]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Account Login]> but was:<[My Account]>
+	at accountManagement.TestLoginFunctionality.LoginToStore(TestLoginFunctionality.java:37)
+]]></failure>
+    <system-out><![CDATA[2019-09-26 11:43:46 INFO  TestBase:438 - ------LoginToStore - test Started ------
+2019-09-26 11:43:46 INFO  TestBase:341 - Navigate to base URL
+2019-09-26 11:43:46 INFO  WebEventListener:26 - Before navigating to : 'http://usablackcaviar.com/'
+2019-09-26 11:43:46 INFO  WebEventListener:30 - Navigated to:'http://usablackcaviar.com/'
+2019-09-26 11:43:46 INFO  TestBase:1004 - Validation of run mode flag
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  HomePage:29 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  TestBase:647 - Waiting time for element is - 94 milliseconds
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: My Account
+2019-09-26 11:43:46 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: My Account]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  HomePage:35 - Click on [My Account Link From Navigation menu] and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:46 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:46 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  TestBase:646 - waiting for loading of element :[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  TestBase:647 - Waiting time for element is - 65 milliseconds
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.linkText: Login
+2019-09-26 11:43:47 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> link text: Login]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  LoginPage:133 - intere value to e-mail address field and page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='input-email']]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='input-email']
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  LoginPage:137 - intere value to password field ana page object is - [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> id: input-password]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.id: input-password
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  LoginPage:141 - "Click on login button"[[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:47 INFO  WebEventListener:73 - Trying to find Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:77 - Found Element By : By.xpath: .//*[@id='content']/div/div[2]/div/form/input
+2019-09-26 11:43:47 INFO  WebEventListener:42 - Trying to click on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:48 INFO  WebEventListener:47 - Clicked on: [[ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)] -> xpath: .//*[@id='content']/div/div[2]/div/form/input]
+2019-09-26 11:43:48 INFO  TestBase:849 - Waiting for page [http://usablackcaviar.com/index.php?route=account/login] to load....
+2019-09-26 11:43:48 INFO  WebEventListener:85 - Just before beforeScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:48 INFO  WebEventListener:89 - Just after afterScript ChromeDriver: chrome on XP (3e3e842939c190000d76b4827cbf330f)
+2019-09-26 11:43:48 INFO  TestBase:862 - Page loading time is: 13 ms
 ]]></system-out>
   </testcase>
 </testsuite>
