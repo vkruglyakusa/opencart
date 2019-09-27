@@ -11,6 +11,7 @@ import org.testng.ITestResult;
 import org.testng.Reporter;
 
 import com.opencart.automation.testBase.TestBase;
+import com.relevantcodes.extentreports.LogStatus;
 
 
 public class Listener extends TestBase implements ITestListener, ISuiteListener, IInvokedMethodListener {
@@ -37,6 +38,11 @@ public class Listener extends TestBase implements ITestListener, ISuiteListener,
 		driver = ((TestBase) currentClass).getDriver();		
 		getScreenShot(driver, result, "failed_tests");
 		printTestResults(result);
+        if(result.getStatus()==ITestResult.FAILURE) {
+            String reason = result.getThrowable().toString();
+            test.log(LogStatus.FAIL, reason);
+            extent.endTest(test);
+        }
 	}
 
 	public void onTestSkipped(ITestResult arg0) {
