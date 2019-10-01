@@ -46,6 +46,7 @@ public class TestLoginFunctionality extends TestBase {
 	}
 
 	@DataProvider
+	//csv data provider
 	public Object[][] getCSVData() throws IOException {
 		return CsvToDataArray.readCsvData("TestingData.csv");
 	}
