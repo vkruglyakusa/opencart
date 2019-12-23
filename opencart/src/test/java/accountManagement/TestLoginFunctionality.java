@@ -20,7 +20,7 @@ public class TestLoginFunctionality extends TestBase {
 	LoginPage loginPage;
 	AccountPage accauntPage;
 	LogoutPage logoutPage;
-
+//pom example 
 	@Test(dataProvider = "getExcelData")
 	public void LoginToStore(String testCase, String loginName, String password, String runMode) throws Exception {
 
@@ -37,7 +37,7 @@ public class TestLoginFunctionality extends TestBase {
 		Assert.assertEquals(getTitle(), "My Account");
 
 		accauntPage = new AccountPage(driver);
-		accauntPage.clickOnLogoutLink();
+		accauntPage.clickOnLogoutLink(); 
 		waitUntillPageLoad();
 		Assert.assertEquals(getTitle(), "Account Logout");
 
