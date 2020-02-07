@@ -70,6 +70,7 @@ public class TestBase {
 	public static String baseURL;
 	public String browser;
 	String ExcelName;
+	//static ExtentHtmlReporter htmlReporter;
 
 	public WebDriver getDriver() {
 		return driver;
@@ -78,7 +79,6 @@ public class TestBase {
 	static {
 		Calendar calendar = Calendar.getInstance();
 		SimpleDateFormat formater = new SimpleDateFormat("dd_MM_yyyy_hh_mm_ss");
-
 		extent = new ExtentReports(System.getProperty("user.dir") + "/test-output/pom_framework_output/reports/test"
 				//+ formater.format(calendar.getTime()) 
 				+ ".html", false);
