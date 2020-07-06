@@ -37,6 +37,7 @@ public class RegesterationPage {
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().window().maximize();
+		//test//
 
 		driver.get("http://usablackcaviar.com");
 		driver.findElement(By.linkText("My Account")).click();
